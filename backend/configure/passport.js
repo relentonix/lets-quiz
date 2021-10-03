@@ -24,7 +24,7 @@ passport.use(new LocalStrategy(User.authenticate()));
 // ---------------------------
 //     GOOGLE LOGIN STRATEGY
 // ---------------------------
-/*passport.use(new GoogleStrategy({
+passport.use(new GoogleStrategy({
 
     clientID: process.env.AUTHORIZATION_GOOGLE_CLIENTID,
     clientSecret: process.env.AUTHORIZATION_GOOGLE_CLIENT_SECRET,
@@ -184,4 +184,3 @@ passport.use(new FacebookStrategy({
     });
 
 }));
-*/
