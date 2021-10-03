@@ -1,0 +1,44 @@
+{
+  "name": "lets-quiz",
+  "version": "1.0.0",
+  "description": "A quiz website with multiple topics to play from and much more.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-aurors/lets-quiz.git"
+  },
+  "keywords": [
+    "quiz"
+  ],
+  "author": "Purvansh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-aurors/lets-quiz/issues"
+  },
+  "homepage": "https://github.com/the-aurors/lets-quiz#readme",
+  "dependencies": {
+    "@node-minify/clean-css": "^5.3.0",
+    "@node-minify/core": "^5.3.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "express-session": "^1.17.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.7",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "request": "^2.88.2"
+  }
+}
