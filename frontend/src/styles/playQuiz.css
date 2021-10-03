@@ -1,0 +1,18 @@
+.option-button{
+    min-height: 75px;
+    line-height: 75px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+@media only screen  and (max-width:600px){
+    .option-button{
+        min-height: 40px;
+        line-height: 40px;
+    }
+}
+.timerDiv div{
+    margin: 0 auto;
+}
+.leaderboard-th{
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+body,html{
+  height: 100%;
+}
+#root{
+  background-image: url("/background-cover.jpg");
+  min-height: 100%;
+  /* Center and scale the image nicely */
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}

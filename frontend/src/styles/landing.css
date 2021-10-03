@@ -1,0 +1,24 @@
+.landing-nav-buttons{
+    height: 80px;
+}
+.btn-play-now-div{
+  float: right;
+  width: 100px;
+  height: 50px; 
+}
+.btn-play-now{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.landing-quiz-image{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.quiz-card{
+  transition: 0.5s ease;
+}
+.quiz-card:hover{
+  box-shadow: 0 0 5px 5px #bbb;
+}
